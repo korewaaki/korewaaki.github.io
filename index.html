@@ -1,0 +1,38 @@
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>aki's place</title>
+    <meta charset="utf-8">
+</head>
+<body>
+
+  //make the letters change randomly on page load
+  //make h1 centered to page
+    
+ 
+  <div class="div-1"><h1 class="h1-1" data-value="aki's place">aki's place</h1>
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const letters = "azertyuiopqsdfghjklmwxcvbn";
+      const h1 = document.querySelector("h1");
+      let iterations = 0;
+      const interval = setInterval(() => {
+        h1.innerText = h1.innerText.split("")
+          .map((letter, index) => {
+          if(index < iterations) {
+            return h1.dataset.value[index];
+          }
+          
+          return letters[Math.floor(Math.random() * 26)]
+        })
+        .join("");
+        
+        if(iterations >= h1.dataset.value.length) clearInterval(interval);
+        
+        iterations += 0.5;
+      }, 30);
+    });
+  </script></div>
+<center><h3>Currently a WIP, come back later for updates :)</h3></center>
+
+</body>
