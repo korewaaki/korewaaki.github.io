@@ -56,12 +56,14 @@ a:link { text-decoration: none; }
     font-weight: 700;
   }
 
-  #cards {
+#cards {
     display: flex;
     flex-wrap: wrap ; 
     gap: 8px;
-    max-width: 1000px;
+    max-width: 922px;
     width: calc(100% - 50px);
+    margin: 0 ;
+    padding: 0;
   }
 
 .card {
