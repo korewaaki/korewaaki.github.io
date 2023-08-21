@@ -43,6 +43,17 @@ a:link { text-decoration: none; }
     margin-top: 10px;
   }
 
+  h4 {
+    display: flex;
+    color: white;
+    font-size: 12px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 200;
+    text-decoration: none;
+    margin-top: 100px;
+  }
+
+
   .div-1 {
     display: flex;
     justify-content: center;
@@ -139,6 +150,7 @@ a:link { text-decoration: none; }
 }
 
 .card2::before {
+  animation-delay: 2s;
   background: radial-gradient(
     800px circle at var(--mouse-x) var(--mouse-y), 
     rgba(140, 122, 255, 0.2), 
@@ -232,6 +244,7 @@ a:link { text-decoration: none; }
   font-weight: 300;
   margin: 10px;
   padding: 20px;
-  padding: 20px; /* Adding padding for spacing */
-  word-wrap: break-word; /* Allow words to break if they exceed the container width *
+  padding: 20px; 
+  word-wrap: break-word; 
 }
+
