@@ -36,7 +36,7 @@ a:link { text-decoration: none; }
   h3 {
     display: flex;
     color: white;
-    font-size: 24px;
+    font-size: 20px;
     font-family: 'Roboto Mono', monospace;
     font-weight: 200;
     text-decoration: none;
@@ -76,7 +76,7 @@ a:link { text-decoration: none; }
     display: flex;
     flex-wrap: wrap ; 
     gap: 8px;
-    max-width: 922px;
+    max-width: 832px;
     width: calc(100% - 50px);
     margin: 0;
     padding: 0;
@@ -86,8 +86,8 @@ a:link { text-decoration: none; }
   display: flex;
   background-color: #181A1B;
   border: 1px solid rgba(255, 255, 255,0.06);
-  height: 300px;
-  width: 300px;
+  height: 200px;
+  width: 200px;
   cursor: pointer;
   align-items: center;
   flex-direction: column;
@@ -131,7 +131,7 @@ a:link { text-decoration: none; }
   background-color: #181A1B;
   border: 1px solid rgba(255, 255, 255, 0.06);
   height: 150px;
-  width: 920px;
+  width: 832px;
   cursor: pointer;
   align-items: center;
   flex-direction: column;
