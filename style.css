@@ -179,7 +179,7 @@ a:link { text-decoration: none; }
 
 .homebutton img{
   background-color: rgba(0, 0, 0, 0);
-  width: 200px;
+  width: 250px;
   display: block;
 }
 
@@ -230,7 +230,7 @@ a:link { text-decoration: none; }
 
 .postdate {
   display: flex;
-  color: rgba(255, 255, 255, 0.329);
+  color: rgba(255, 255, 255, 0.12);
   font-size: 30px;
   font-family: 'Roboto Mono', monospace;
   font-weight: 300;
